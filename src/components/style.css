@@ -1,0 +1,168 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  h1 {
+    font-family:'Abril Fatface', cursive;
+    font-size: 30px
+  }
+  
+  #navhead {
+    color:#343a40;
+  }
+  
+  .navbar {
+    height: 100px;
+    background-color: #ffffff;
+    margin-right:0;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    font-family: 'Montserrat';
+  }
+  
+  .navbar-collapse {
+    background-color:  #ffffff;
+  }
+  
+  .navbar-nav {
+    padding: 10px;
+  }
+  
+  body { 
+    background-color: #E8CEBF;
+    margin-bottom:75px;
+    margin-right:0;
+  }
+  
+  h2 {
+    font-family:'Abril Fatface', cursive;
+    color: #266150;
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-family:'Abril Fatface', cursive;
+    color: #266150;
+    margin-bottom: 15px;
+  }
+  
+  
+  #contain-style {
+    margin-top: 40px;
+    margin-bottom: 75px;
+  }
+  
+  .about-me {
+    font-family: 'Montserrat';
+    font-weight: 15px;
+    background-color: #ffffff; 
+    line-height: 1.75;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 75px;
+    
+  }
+  
+  .amimage {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .icon {
+    color: #9D9B9B;
+    font-size: 20px;
+  }
+  
+  .card {
+    height: 400px;
+    width: 315px;
+    transition: all .2s ease-in-out; 
+    border-radius: 13px;
+  }
+  
+  .card:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+  .portimage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #A6C8CA;
+    border-radius: 10px;
+  
+  }
+  
+  .btnstyle {
+    background-color:#A6C8CA;
+    border-radius:10px;
+    border:0;
+    font-weight:bold;
+  }
+  
+  .btnstyle:hover {
+    background-color: #266150;
+  }
+  
+  .btnstyle:focus, .btnstyle:active {
+    background-color:#A6C8CA;
+  }
+  
+  
+  .formstyle {
+    border-radius:10px;
+  }
+  
+  footer {
+      background-color: #FDF8F5;
+      color:white;
+      height: 75px;   
+      position:absolute;
+      bottom:0;
+      right:0;
+      left:0;
+      margin-bottom: 0;
+    }
+    
+    .icon-span {
+      margin: 15px;
+    }
+  
+    #linkedin {
+      position: absolute;
+      transition: all .2s ease-in-out; 
+    }
+  
+    #github {
+      position: absolute;
+      transition: all .2s ease-in-out; 
+    }
+  
+    #resume {
+      position: absolute;
+      transition: all .2s ease-in-out; 
+    }
+  
+    .icon:hover {
+      transform: scale(1.3); 
+      color:#266150;
+    }
+  
+    .icon:active {
+      color:#A6C8CA;
+    }
+  
+  
+  
+  
+  
+  
+  
