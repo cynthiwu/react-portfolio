@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 // import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 class PortfolioContainer extends Component {
 
@@ -9,7 +11,8 @@ class PortfolioContainer extends Component {
         return (
             <React.Fragment>
                 <Navbar></Navbar>
-                <Portfolio></Portfolio>
+                <Contact></Contact>
+                <Footer></Footer>
             </React.Fragment>
         );
     }

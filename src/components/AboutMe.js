@@ -6,7 +6,6 @@ function AboutMe() {
 
     <React.Fragment>
 
-        {/* <div class="left-design"></div> */}
         <div class="text-center mt-5">
             <img src="./images/aboutme.jpeg" alt="A photograph of me with the sun behind me." class="amimage"/>
         </div>

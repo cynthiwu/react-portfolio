@@ -101,14 +101,14 @@ html {
   
   }
   
-  .btnstyle {
+  #btnstyle {
     background-color:#A6C8CA;
     border-radius:10px;
     border:0;
     font-weight:bold;
   }
   
-  .btnstyle:hover {
+  #btnstyle:hover {
     background-color: #266150;
   }
   
