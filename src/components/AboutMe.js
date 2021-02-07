@@ -6,13 +6,13 @@ function AboutMe() {
 
     <React.Fragment>
 
-        <div class="text-center mt-5">
-            <img src="./images/aboutme.jpeg" alt="A photograph of me with the sun behind me." class="amimage"/>
+        <div className="text-center mt-5">
+            <img src={process.env.PUBLIC_URL + "/images/aboutme.jpeg"} alt="A photograph of me with the sun behind me." className="amimage"/>
         </div>
   
-        <main role="main" class="container" id="contain-style">
-            <section class="row">
-                <div class="col-xs-12 col-sm-8 col-md-12 p-4 about-me">
+        <main role="main" className="container" id="contain-style">
+            <section className="row">
+                <div className="col-xs-12 col-sm-8 col-md-12 p-4 about-me">
                     <h2>about me</h2>
                     <hr/>
                     <p>
