@@ -1,0 +1,33 @@
+[
+      {
+        "_id ": 1,
+        "image": "/images/whatsfordinner.png",
+        "title": "What's for Dinner?",
+        "live": "https://cynthiwu.github.io/whats-for-dinner/",
+        "repo": "https://github.com/cynthiwu/whats-for-dinner"
+      },
+
+      {
+        "_id ": 2,
+        "image": "/images/eatburger.png",
+        "title": "Eat-Da-Burger",
+        "live": "https://salty-badlands-51907.herokuapp.com/",
+        "repo": "https://github.com/cynthiwu/eat-burger"
+      },
+
+      {
+        "_id ": 3,
+        "image": "/images/weatherdashboard.png",
+        "title": "Weather Dashboard",
+        "live": "https://cynthiwu.github.io/weather-dashboard/",
+        "repo": "https://github.com/cynthiwu/weather-dashboard" 
+      },
+
+      {
+        "_id ": 4,
+        "image": "/images/workdayscheduler.png",
+        "title": "Workday Scheduler",
+        "live": "https://cynthiwu.github.io/work-day-scheduler/",
+        "repo": "https://github.com/cynthiwu/work-day-scheduler"  
+      }
+]

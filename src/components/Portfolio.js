@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import Card from "./Card";
+import projects from "../projects.json";
 
 function Portfolio() {
     return (
@@ -10,9 +12,12 @@ function Portfolio() {
             <div className="row">
                 <div className="col-xs-12 col-sm-8 col-md-12 p-4 about-me">
                 <h2>portfolio<hr /></h2>
-
-                    <div className="card text-center float-left m-3">
-                        <img className="portimage" src={process.env.PUBLIC_URL + "/images/whatsfordinner.png"} alt="What's for dinner project image" />
+                
+                    {projects.map(item => {
+                        return <Card id={item.id} image={item.image} live={item.live} repo={item.repo}/>
+                    })}
+                    {/* <div className="card text-center float-left m-3">
+                        <img className="portimage" src={process.env.PUBLIC_URL + "/images/whatsfordinner.png"} />
                         <div className="card-body">
                             <h5 className="card-title">What's for Dinner?</h5>
                             <a href="https://cynthiwu.github.io/whats-for-dinner/">See it live!</a>
@@ -48,8 +53,8 @@ function Portfolio() {
                             <a href="https://cynthiwu.github.io/work-day-scheduler/">See it live!</a>
                             <br />
                             <a href="https://github.com/cynthiwu/work-day-scheduler" className="card-text">Repository</a>
-                        </div>
-                    </div>
+                        </div> */}
+                    {/* </div> */}
                 </div>
             </div>
         </main>
