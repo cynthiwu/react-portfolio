@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import "./style.css";
+
 
 class PortfolioContainer extends Component {
 
