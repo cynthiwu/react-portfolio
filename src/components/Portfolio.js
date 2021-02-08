@@ -13,9 +13,8 @@ function Portfolio() {
                 <div className="col-xs-12 col-sm-8 col-md-12 p-4 about-me">
                 <h2>portfolio<hr /></h2>
                 
-                    {projects.map(item => {
-                        return <Card id={item.id} image={item.image} live={item.live} repo={item.repo}/>
-                    })}
+                    {projects.map(item => <Card {...item}/>)}
+                    
                 </div>
             </div>
         </main>
