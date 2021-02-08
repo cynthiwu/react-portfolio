@@ -1,102 +1,80 @@
-# Unit 20 React Homework: React Portfolio
+# My Portfolio in React
 
-Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+Explore the [project page](https://github.com/cynthiwu/react-portfolio)
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+View it live on [GitHub Pages](https://cynthiwu.github.io/react-portfolio/)
 
-## Requirements
-
-* Updated portfolio featuring 6 total projects
-
-* Use React
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-* Update GitHub profile with pinned repositories featuring those same projects
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
-
-* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
-
-## Grading
-
-| Requirement    | Weight |
-| -------------- | ------ |
-| Portfolio      | 90%    |
-| GitHub Profile | 10%    |
+## Table of Contents
+- [About The Project](#about-the-project)
+    - [Built With](#built-with)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
 
-## Instructions
+## About The Project
 
-* [Updated Portfolio](#updated-portfolio)
+The goal of this project was to rebuild my portfolio using React. The focus was on breaking up the portfolio's pages into components to practice rednering based on user initiated events. 
 
-* [Design](#design)
+<hr>
 
-* [React](#react)
+![Main Snapshot](./public/images/about.png)
 
-* [Updated LinkedIn Profile](#updated-linkedin-profile)
+<hr>
 
-### Updated Portfolio
+![Portfolio Snapshot](./public/images/portfolio.png)
 
-Your updated site should still have all of the content it previously had:
+<hr>
 
-* Your name
+![Contact Snapshot](./public/images/contact.png)
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+<hr>
 
-* A link to a PDF of your resume with updated projects
+### Built With
 
-* A list of projects. For each project, make sure you have the following:
+This project was built using:
 
-  * Project title
-
-  * Link to the deployed version
-
-  * Link to the GitHub repository
-
-  * GIF or screenshot of the deployed application
-
-
-#### Design
-
-As with the previous portfolio homework, "good" design is subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-* If you want to go above and beyond, try using animations and react component libraries. Note 
-that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
-
-### React
-
-Additionally, this new portfolio should be created using React.
-
-At a minimum, your portfolio should include the following:
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-* **Important**: If you use React Router, you will **NOT** be able to use the `<BrowserRouter>` component on GitHub Pages. Read the [GitHub note on client-side routing](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) and the [React Router documentation on HashRouter](https://reactrouter.com/web/api/HashRouter) for more information.
+* JavaScript
+* [React](https://reactjs.org/)
+* React DOM
+* React Router DOM
+* [Node.js](https://nodejs.org/api/fs.html)
+* [Bootstrap] (https://getbootstrap.com/)
 
 
-### Updated LinkedIn Profile 
+## Installation
 
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+While not necessary to run the program via the live link above, you may get a local copy up and running by following these simple steps:
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+1. Clone the repo
+```sh
+git clone git@github.com:cynthiwu/react-portfolio.git 
+```
+
+2. Install NPM packages (i.e., Inquirer)
+```sh
+npm install
+```
+
+## Usage
+
+This project can be used as a demonstration of React components and a framework for manipulating UI based on user action. In addition, it is a good example of the Random User API and how the data can be used. Randomly generated data can be swapped out for user entered data. 
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to  learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+
+Cynthia Wu - [@cynthia21wu](https://twitter.com/cynthia21wu) - cynthia21wu@gmail.com
+
+Project Link: [https://github.com/cynthiwu/react-portfolio](https://github.com/cynthiwu/react-portfolio)
+
+Live Link: [https://cynthiwu.github.io/react-portfolio/](https://cynthiwu.github.io/react-portfolio/)
