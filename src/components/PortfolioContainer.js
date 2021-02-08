@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
@@ -12,7 +12,7 @@ class PortfolioContainer extends Component {
 
     render() {
         return (
-            <Router basename="react-portfolio">
+            <HashRouter basename="react-portfolio">
                 <React.Fragment>
                     <Navbar />
                     <Switch>
@@ -31,7 +31,7 @@ class PortfolioContainer extends Component {
                     </Switch>
                     <Footer />
                 </React.Fragment>
-            </Router>
+            </HashRouter>
         );
     }
 }
