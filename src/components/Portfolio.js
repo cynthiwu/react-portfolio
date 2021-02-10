@@ -3,6 +3,7 @@ import "./style.css";
 import Card from "./Card";
 import projects from "../projects.json";
 
+
 function Portfolio() {
     return (
 
@@ -14,7 +15,7 @@ function Portfolio() {
                 <h2>portfolio<hr /></h2>
                 
                     {projects.map(item => <Card {...item}/>)}
-                    
+
                 </div>
             </div>
         </main>
